@@ -1,0 +1,52 @@
+{
+	"name": "Streadata.io API Gallery - Participants",
+	"description": "This is a repository of participants APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/participants.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://participants.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Twilio",
+			"x-api-slug": "twilio",
+			"description": "Cloud communications platform for building SMS, Voice & Messaging applications on an API built for global scale. Get started with a free trial.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg",
+			"humanURL": "http://www.twilio.com",
+			"baseURL": "https://api.twilio.com//2010-04-01/",
+			"tags": "Participants",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/participants/master/_listings/twilio/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Learnifier",
+			"x-api-slug": "learnifier",
+			"description": "Create your online courses in minutes. Learnifier is the fast and easy tool for creating and sharing great courses that work on your mobile, tablet and desktop. Book a DEMO or test it out with our FREE TRIAL.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28448-learnifier.jpg",
+			"humanURL": "http://learnifier.com",
+			"baseURL": "https://learnifier.com//",
+			"tags": "Participants",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/participants/master/_listings/learnifier/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Participants",
+	"include": [
+		{
+			"name": "Twilio",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/participants/master/_listings/twilio/apis.yaml"
+		},
+		{
+			"name": "Learnifier",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/participants/master/_listings/learnifier/apis.yaml"
+		}
+	]
+}
